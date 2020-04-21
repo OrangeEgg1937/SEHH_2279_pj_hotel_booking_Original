@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">sehh_2279_gp_pj_hotel_booking</string>
+    <string name="login">Login</string>
+    <string name="user_name">User name</string>
+    <string name="password">Password</string>
+    <string name="next_key">Next</string>
+    <!--This is for menu use-->
+    <string name="welcome_user_msg">Hello, Mr.Chan</string>
+    <!--title-->
+    <string name="news_page_title">What\'s new</string>
+    <string name="booking_page_title">Booking</string>
+    <string name="user_account_page_title">My profile</string>
+    <string name="help_page_title">Help</string>
+    <string name="view_booking_page_title">View booking</string>
+    <string name="setting_page">Setting</string>
+</resources>

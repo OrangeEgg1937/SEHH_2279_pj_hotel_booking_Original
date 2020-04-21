@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    tools:context=".Home_Page">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_launcher_round" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_user_msg" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:id="@+id/row_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/news"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    app:srcCompat="@android:drawable/stat_notify_chat" />
+
+                <ImageView
+                    android:id="@+id/view_booking"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    app:srcCompat="@android:drawable/ic_dialog_info" />
+
+                <ImageView
+                    android:id="@+id/booking"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    app:srcCompat="@android:drawable/ic_menu_call" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/row_1_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/news_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/news_page_title" />
+
+                <TextView
+                    android:id="@+id/view_booking_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/view_booking_page_title" />
+
+                <TextView
+                    android:id="@+id/booking_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/booking_page_title" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/row_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/help"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    app:srcCompat="@android:drawable/sym_action_email" />
+
+                <ImageView
+                    android:id="@+id/setting"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    app:srcCompat="@android:drawable/ic_menu_preferences" />
+
+                <ImageView
+                    android:id="@+id/imageView16"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/row_2_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/help_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/help_page_title" />
+
+                <TextView
+                    android:id="@+id/setting_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/setting_page" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/row3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/row3_text_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView3_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/textView3_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/textView3_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
